@@ -1,0 +1,166 @@
+
+/* Cuerpo del proyecto */
+body {
+    font-family: monospace;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    align-items: center;
+    color: white;
+}
+
+/* Banner del proyecto */
+#title {
+    font-size: 23px;
+    color: greenyellow;
+}
+
+/* Marcas del banner del proyecto */
+#titleMarks {
+    color: rgb(155, 154, 154)
+}
+
+/* Bloque global Terminal */
+.terminalContainer {
+    filter: drop-shadow(0 0 13px rgba(0, 0, 0, 0.7));
+    border-radius: 5px;
+    border: 1px solid rgba(136, 255, 0, 0.178);
+    background-color: rgb(27, 27, 27);
+    width: 68em;
+    height: 52em;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bloque del formulario */
+#formContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Nombre en terminal */
+#actualPath {
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Signo en terminal */
+#dollar {
+    color: greenyellow;
+}
+
+/* Signo en terminal */
+#index {
+    margin-left: 1px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+/* Texto de los comandos */
+#text {
+    border: none;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    color: greenyellow;
+    outline: none;
+}
+
+/* Botón submit */
+#submit {
+    display: none;
+}
+
+/* Separador Terminal */
+#separator {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgb(53, 53, 53);
+    margin-top: 5px;
+    filter: drop-shadow(0 2px 3px rgb(0, 0, 0));
+}
+
+/* Feed Terminal */
+#feed {
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding-left: 5px;
+    margin-right: 6px;
+    margin-top: 10px;
+    max-height: auto;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+/* Contenido de la feed Terminal */
+#feedContent {
+    padding-right: 20px;
+}
+
+/* Caja texto bienvenida */
+#colorWelcomeBox {
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto bienvenida */
+#colorWelcome {
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Titulo lista de comandos */
+#listComandTitle {
+    font-size: 15px;
+}
+
+/* Comando en lista de comandos */
+#command {
+    color: greenyellow;
+}
+
+/* Texto importante en lista de comandos */
+#helpImportant {
+    color: red;
+}
+
+/* Separador en lista de comandos */
+#separatorHelp {
+    color: #4a4a4a;
+}
+
+#helpBox {
+    font-size: 11px;
+}
+
+#help {
+    color: greenyellow;
+}
+
+
+/* Scrollbar */
+#feed::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Scrollbar */
+#feed::-webkit-scrollbar-track {
+    background: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+/* Scrollbar */
+#feed::-webkit-scrollbar-thumb {
+    background-color: rgb(59, 59, 59);
+    border-radius: 10px;
+    border: 3px solid rgb(34, 34, 34);
+}
